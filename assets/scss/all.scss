@@ -1,0 +1,22 @@
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import 'bootstrap/scss/functions';
+
+@import './variables';
+@import './variables-dark';
+
+// 5. Include remainder of required parts
+@import 'bootstrap/scss/bootstrap';
+
+// @import 'bootstrap/scss/maps';
+// @import 'bootstrap/scss/mixins';
+// @import 'bootstrap/scss/root';
+
+// @import 'bootstrap/scss/buttons';
+
+@import './base/base.scss';
+
+@import './layout/header.scss';
+@import './layout/footer.scss';
+
+@import './pages/index.scss';
+@import './pages/plane.scss';
